@@ -15,7 +15,9 @@
 - **Responsable:** Antony
 - **Estado:** Implementada y verificada
 - **Rama:** fix/INC-001-total
+- **Commit:** XXXXXXX (INC-001: corregir calculo por cantidad)
 - **Prueba:** CP-001 (50 × 3 = S/ 150), aprobada
+- **Versión de entrega:** v1.1.0
 
 ## CR-002: Descuento del 10 % desde S/ 200
 
@@ -30,6 +32,11 @@
 - **Prioridad:** Media
 - **Decisión:** Aprobada (aprobación académica simulada)
 - **Responsable:** Antony
+- **Estado:** Implementada y verificada
+- **Rama:** feature/CR-002-descuento
+- **Commit:** XXXXXXX (CR-002: agregar descuento por subtotal)
+- **Pruebas:** CP-002, CP-003 y CP-004 (subtotales 150, 200 y 300), aprobadas
+- **Versión de entrega:** v1.1.0
 
 ## Matriz de impacto
 
@@ -49,7 +56,21 @@
 
 ## Aprobación académica simulada
 
-- **INC-001:** Aprobada. Se corregirá en la rama `fix/INC-001-total`.
-- **CR-002:** Aprobada. Se implementará en la rama `feature/CR-002-descuento`.
+- **INC-001:** Aprobada. Se corrigió en la rama `fix/INC-001-total`.
+- **CR-002:** Aprobada. Se implementó en la rama `feature/CR-002-descuento`.
 - **Fecha:** 12/11/2026
 - **Aprobado por:** Docente del curso (simulado)
+
+## Documentos actualizados
+
+- `src/ventas.py`: corrección del total y función de descuento.
+- `docs/requisitos.md`: se agregó RF-002.
+- `pruebas/casos_prueba.md`: casos CP-001 a CP-004 con resultados.
+- `cambios/registro_cambios.md`: seguimiento y cierre de INC-001 y CR-002.
+
+## Tabla de trazabilidad
+
+| ID de cambio | Rama | Commit | Prueba | Versión |
+|---|---|---|---|---|
+| INC-001 | fix/INC-001-total | XXXXXXX | CP-001 | v1.1.0 |
+| CR-002 | feature/CR-002-descuento | XXXXXXX | CP-002, CP-003, CP-004 | v1.1.0 |
