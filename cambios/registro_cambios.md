@@ -13,6 +13,9 @@
 - **Prioridad:** Alta
 - **Decisión:** Aprobada (aprobación académica simulada)
 - **Responsable:** Antony
+- **Estado:** Implementada y verificada
+- **Rama:** fix/INC-001-total
+- **Prueba:** CP-001 (50 × 3 = S/ 150), aprobada
 
 ## CR-002: Descuento del 10 % desde S/ 200
 
